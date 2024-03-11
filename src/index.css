@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary: #bc4123;
+  --secondary: #2b3452;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+
+* {
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header nav a{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background: var(--primary);
+}
+
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* help */
+
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.help-layout nav a {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.help-layout nav a:hover {
+  border-color: var(--primary);
+}
+
+.help-layout nav a.active{
+  background: var(--primary);
+}
+
+/* faq */
+.faq .question {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form input,
+form label span,
+form textarea {
+  display: block;
+}
+
+form input,
+form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: var(--secondary);
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+.contact {
+  background-color: #123c69;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  color: black;
+}
+
+.contact h3 {
+  margin-top: 0;
+  color: #000;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 15px; 
+}
+
+.contact label span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.inp{
+  border-radius: 10px;
+  background-color:#fff;
+  font-size: 17px;
+  color: black;
+  border-color: #000;
+}
+
+.sub{
+  color: #000;
+  font-size: 15px;
+}
+
+.careers > a{
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.careers > a:hover p{
+  color: var(--primary);
+}
+
+.careers p{
+  margin: 0;
+}
+
+.careers > a p:last-child{
+  font-size: 0.8em;
+  color: #bbb;
+}
+
+.career-details{
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+
+
+
